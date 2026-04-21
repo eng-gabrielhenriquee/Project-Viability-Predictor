@@ -22,6 +22,8 @@ Construir um modelo de classificação capaz de prever automaticamente se um pro
 
 ## Dataset
 
+# Este dataset foi sinteticamente gerado para simular cenários reais de avaliação de projetos.
+
 O modelo utiliza as seguintes variáveis:
 | Variável        | Descrição                  |
 | --------------- | -------------------------- |
