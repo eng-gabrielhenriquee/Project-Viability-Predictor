@@ -30,25 +30,32 @@ O modelo utiliza as seguintes variáveis:
 | impact_score    | Impacto (escala de 1 a 10) |
 | viability       | Classe alvo (0 ou 1)       |
 
-Tecnologias Utilizadas
+Tecnologias Utilizadas:
+
 Python
 Pandas
 Scikit-learn
 Joblib
-🧠 Modelo Utilizado
+
+
+##Modelo Utilizado
 
 Foi utilizado o algoritmo:
 
-👉 Regressão Logística (Logistic Regression)
+Regressão Logística (Logistic Regression)
 
-📌 Por quê?
+## Por quê?
 
 A regressão logística é adequada para:
 
 problemas de classificação binária
+
 interpretação probabilística
+
 rapidez e eficiência em datasets pequenos
+
 🔄 Pipeline do Modelo
+
 Leitura dos dados (pandas)
 Separação de variáveis (X, y)
 Normalização (StandardScaler)
@@ -57,7 +64,8 @@ Treinamento (LogisticRegression)
 Avaliação (classification_report)
 Salvamento do modelo (joblib)
 Predição de novos dados
-📊 Métricas
+
+📊 Métricas:
 
 O modelo gera automaticamente:
 
