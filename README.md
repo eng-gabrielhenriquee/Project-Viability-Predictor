@@ -1,7 +1,7 @@
-##Project Viability Predictor
+## Project Viability Predictor
 Sistema baseado em Machine Learning para prever a viabilidade de projetos com base em indicadores financeiros e de impacto.
 
-##Problema
+## Problema
 
 #Tomadores de decisão frequentemente precisam avaliar se um projeto é viável ou não, considerando:
 
@@ -20,7 +20,7 @@ Construir um modelo de classificação capaz de prever automaticamente se um pro
 ✅ Viável
 ❌ Não viável
 
-🧪 Dataset
+## Dataset
 
 O modelo utiliza as seguintes variáveis:
 | Variável        | Descrição                  |
@@ -30,7 +30,7 @@ O modelo utiliza as seguintes variáveis:
 | impact_score    | Impacto (escala de 1 a 10) |
 | viability       | Classe alvo (0 ou 1)       |
 
-Tecnologias Utilizadas:
+## Tecnologias Utilizadas:
 
 Python
 Pandas
@@ -38,7 +38,7 @@ Scikit-learn
 Joblib
 
 
-##Modelo Utilizado
+## Modelo Utilizado
 
 Foi utilizado o algoritmo:
 
